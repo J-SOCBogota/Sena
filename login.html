@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - SubliLinkas</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-side">
+            <div class="cubes">
+                <div class="cube" style="top: 0; left: 0; animation-delay: 0s;"></div>
+                <div class="cube" style="top: 60px; left: 60px; animation-delay: 0.5s;"></div>
+                <div class="cube" style="top: 120px; left: 120px; animation-delay: 1s;"></div>
+                <div class="cube" style="top: 180px; left: 60px; animation-delay: 1.5s;"></div>
+                <div class="cube" style="top: 240px; left: 0; animation-delay: 2s;"></div>
+            </div>
+        </div>
+        <div class="form-side">
+            <div class="form-container">
+                <h1>👑 SubliLinkas</h1>
+                <p>Bienvenido a nuestra aplicación</p>
+                <form id="login-form">
+                    <input type="email" id="email" placeholder="Correo electrónico" required>
+                    <input type="password" id="password" placeholder="Contraseña" required>
+                    <button type="submit">Iniciar Sesión</button>
+                </form>
+                <div class="login-link">
+                    ¿No tienes una cuenta? <a href="register.html">Regístrate aquí</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

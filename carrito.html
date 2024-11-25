@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="css/carrito.css"> <!-- Agrega tu CSS si lo necesitas -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Carrito de Compras</h1>
+    <div id="carrito" class="carrito-container">
+        <table>
+            <thead>
+            <tr>
+                <th>Imagen</th>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+            </tr>
+            </thead>
+            <tbody id="carrito-body">
+            <!-- Los productos del carrito se agregarán aquí -->
+            </tbody>
+        </table>
+        <div id="total">
+            <strong>Total:</strong> <span id="total-price">0</span>
+        </div>
+        <button class="finalizar-btn" id="ver-factura-btn">Finalizar Compra</button>
+    </div>
+</div>
+<script src="/webjars/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/api.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
