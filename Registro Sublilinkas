@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - SubliLinkas</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-side">
+            <div class="form-container">
+                <h1> 👑 SubliLinkas</h1>
+                <p>Crea tú cuenta</p>
+                <form id="register-form">
+                    <input type="text" id="name" placeholder="Nombre" required>
+                    <input type="email" id="email" placeholder="Correo electrónico" required>
+                    <input type="password" id="password" placeholder="Contraseña" required>
+                    <input type="text" id="address" placeholder="Dirección" required>
+                    <input type="tel" id="phone" placeholder="Teléfono" required>
+                    <button type="submit">Registrarse</button>
+                </form>
+                <div class="login-link">
+                    ¿Ya tienes una cuenta? <a href="login.html">Inicia sesión aquí</a>
+                </div>
+            </div>
+        </div>
+        <div class="image-side">
+            <div class="cubes">
+                <div class="cube" style="top: 0; left: 0; animation-delay: 0s;"></div>
+                <div class="cube" style="top: 50px; left: 50px; animation-delay: 0.5s;"></div>
+                <div class="cube" style="top: 100px; left: 100px; animation-delay: 1s;"></div>
+                <div class="cube" style="top: 150px; left: 150px; animation-delay: 1.5s;"></div>
+                <div class="cube" style="top: 200px; left: 200px; animation-delay: 1.5s;"></div>
+                <div class="cube" style="top: 250px; left: 250px; animation-delay: 1.5s;"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/webjars/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
